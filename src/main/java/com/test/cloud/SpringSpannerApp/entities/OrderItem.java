@@ -18,6 +18,10 @@ public class OrderItem {
     @Column(name="order_item_id")
     private String orderItemId;
 
+    @PrimaryKey(keyOrder = 3)
+    @Column(name="idtest1")
+    private String idtest1;
+
     private String description;
     private Long quantity;
 
