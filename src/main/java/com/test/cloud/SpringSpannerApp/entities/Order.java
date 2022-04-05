@@ -28,7 +28,6 @@ public class Order {
     @Interleaved
     private List<OrderItem> items;
 
-    @Interleaved
     private String idtest1;
 
     @Interleaved
